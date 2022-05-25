@@ -10,6 +10,18 @@
 npm run dev
 ```
 
+**Generate Prisma Client with the following command**
+
+```
+npx prisma generate
+```
+
+**Migrate database:**
+
+```
+npx prisma migrate dev --name init
+```
+
 ## Create Google API key
 
 Open Google Cloud account, free but want CC number
